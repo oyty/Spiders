@@ -1,3 +1,3 @@
 # Spiders
 ## VoteSpider
->   很多网页投票是有ip限制的，也就是说，电脑ip不变，就只能投一次票，该爬虫投票原理是使用大量代理ip，首先从相关代理ip网站爬下大量的代理ip，然后用代理ip去请求投票地址，完成投票。
+>  Many vote site have a rule in ip, that is to say, if you don't change you computer ip, you can just cast one vote. So we can use the proxy ip to request the vote, first we will fetch many proxy ips from some proxy ip providing site, than just do it. One more thing, so how to get the vote url? well, you just open the developer tools in browser, and click the vote button, the vote url will be captured.
