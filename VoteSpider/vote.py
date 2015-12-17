@@ -13,7 +13,7 @@ count = 0
 
 proxy_list = open('proxy.txt', 'r')
 vote_url = 'http://www.capgn.org/tools/submit_ajax.ashx?action=vote_add&article_id=399'
-timeout = 1000
+timeout = 10
 
 
 def add_count():
